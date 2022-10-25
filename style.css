@@ -1,0 +1,34 @@
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
+
+  .mole {
+    height: 50px;
+    width: 50px;
+    margin: 20% auto;
+    background-color: brown;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .spin {
+    animation: spin 1s ease-in-out infinite;
+  }
+
+  img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  .imgContainer{
+    display: none;
+    margin: 20% auto;
+  }
+
+  .show{
+    display: block;
+  }
